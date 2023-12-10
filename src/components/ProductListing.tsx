@@ -42,7 +42,7 @@ export const ProductListing = ({ product, index }: ProductListingProps) => {
         })}
         href={`/product/${product.id}`}
       >
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full hover:scale-105 transition-all">
           <ImageSlider urls={validUrls} />
 
           <h3 className="mt-4 font-medium text-sm text-gray-700">
